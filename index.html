@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/idangerous.swiper.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- 头部 logo 搜索 登录 -->
+        <div class="header">
+            <div class="headtop">
+                <div class="logo"><a href="#"><img src="images/logo1.png" class="logo_tg"><img src="images/logo2.png"
+                            class="logo_img"></a></div>
+                <div class="search">
+                    <div class="search_left">工程<i></i></div>
+                    <div class="search_kw"><input type="text" autocomplete="off" placeholder="请输入需要搜索的内容"></div>
+                    <input type="submit" value="" id="searchbtn" class="search-icon">
+                </div>
+                <div class="head_right">
+                    <div class="member"><a href="#">会员权益</a></div>
+                    <div class="no_login_wrap">
+                        <a href="">登录</a>
+                        <a href="#">注册</a>
+                    </div>
+                    <div class="login_wrap">
+                        <a href="#">工作台</a>
+                        <span class="member_name">102222</span>
+                        <a href="退出"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 头部轮播 导航 -->
+        <div class="banner_main">
+            <!-- 导航 -->
+            <div class="nav">
+                <ul>
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">工程信息</a></li>
+                    <li><a href="#">招采信息</a></li>
+                    <li><a href="#">同城活动</a></li>
+                    <li><a href="#">业务微信群</a></li>
+                    <li><a href="#">人工查询</a></li>
+                    <li><a href="#">工程帮app</a></li>
+                    <li><a href="#">问答平台</a></li>
+                </ul>
+            </div>
+            <!-- 轮播 -->
+            <div class="banner">
+                <div class="device">
+                    <a class="arrow-left" href="#"></a>
+                    <a class="arrow-right" href="#"></a>
+                    <div class="swiper-container">
+                        <!-- 轮播图片 -->
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"> <img src="images/banner01.jpg"> </div>
+                            <div class="swiper-slide"> <img src="images/banner02.jpg"> </div>
+                            <div class="swiper-slide"> <img src="images/banner03.jpg"> </div>
+                            <div class="swiper-slide"> <img src="images/banner04.jpg"> </div>
+                        </div>
+                    </div>
+                    <div class="paginationBg">
+                        <!-- 分页 -->
+                        <div class="pagination"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- 轮播图底部数据信息 -->
+            <div class="bannerBgTxt">
+                <div class="banner_txt">
+                    <ul>
+                        <li><a href="#">
+                                <p>重点工程项目</p>
+                                <p class="num" id="proNum">466,407</p>
+                            </a></li>
+                        <li><a href="#">
+                                <p>工程招采信息</p>
+                                <p class="num" id="biddingNum">4,873,040</p>
+                            </a></li>
+                        <li><a href="#">
+                                <p>天工网会员</p>
+                                <p class="num" id="memberNum">5,727,155</p>
+                            </a></li>
+                        <li> <a href="#">
+                                <p>合作签单案例</p>
+                                <p class="num" id="cooperateNum">13,757</p>
+                            </a></li>
+                    </ul>
+
+
+
+
+                </div>
+            </div>
+            <!-- 轮播图上右侧信息 -->
+            <div class="banner_right_main">
+                <div class="right_main">
+                    <p>现在注册</p>
+                    <p class="desc">即可<strong>免费体验</strong></p>
+                    <p class="price">价值<strong>2000元</strong>套餐</p>
+                    <a href="#" class="registerBtn">立即注册</a>
+                </div>
+            </div>
+        </div>
+        <!-- 中间列表 -->
+        <div class="content_main">
+            <div class="left_main">
+                <p class="main_tit">最新项目信息</p>
+                <ul class="pro_list">
+                    <li><a href="#">污水处理<span>(1234)</span></a></li>
+                    <li><a href="#">污水处理<span>(1234)</span></a></li>
+                    <li><a href="#">污水处理<span>(1234)</span></a></li>
+                    <li><a href="#">污水处理<span>(1234)</span></a></li>
+                    <li><a href="#">污水处理<span>(1234)</span></a></li>
+                    <li><a href="#">污水处理<span>(1234)</span></a></li>
+                    <li><a href="#">污水处理<span>(1234)</span></a></li>
+                    <li><a href="#">污水处理<span>(1234)</span></a></li>
+                    <li><a href="#">污水处理<span>(1234)</span></a></li>
+                    <li><a href="#">污水处理<span>(1234)</span></a></li>
+                    <li><a href="#">污水处理<span>(1234)</span></a></li>
+                    <li><a href="#">污水处理<span>(1234)</span></a></li>
+                    <li><a href="#">污水处理<span>(1234)</span></a></li>
+                    <li><a href="#">污水处理<span>(1234)</span></a></li>
+                    <li><a href="#">污水处理<span>(1234)</span></a></li>
+                </ul>
+            </div>
+            <div class="right_main">
+                <p class="main_tit">一周内新增项目<span>2023</span>条</p>
+                <ul>
+                    <li class="tit">
+                        <span class="clumn1">地区</span>
+                        <span class="clumn2">工程项目名称</span>
+                        <span class="clumn3">工程阶段</span>
+                        <span class="clumn4">更新时间</span>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="clumn1">广东省</span>
+                            <span class="clumn2">• 广东广康生化科技股份有限公司-广州公司年产5650吨杀虫剂及杀菌剂技改项目（广东英德市）</span>
+                            <span class="clumn3">施工准备</span>
+                            <span class="clumn4">今天</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="clumn1">广东省</span>
+                            <span class="clumn2">• 广东广康生化科技股份有限公司-广州公司年产5650吨杀虫剂及杀菌剂技改项目（广东英德市）</span>
+                            <span class="clumn3">施工准备</span>
+                            <span class="clumn4">今天</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="clumn1">广东省</span>
+                            <span class="clumn2">• 广东广康生化科技股份有限公司-广州公司年产5650吨杀虫剂及杀菌剂技改项目（广东英德市）</span>
+                            <span class="clumn3">施工准备</span>
+                            <span class="clumn4">今天</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="clumn1">广东省</span>
+                            <span class="clumn2">• 广东广康生化科技股份有限公司-广州公司年产5650吨杀虫剂及杀菌剂技改项目（广东英德市）</span>
+                            <span class="clumn3">施工准备</span>
+                            <span class="clumn4">今天</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="clumn1">广东省</span>
+                            <span class="clumn2">• 广东广康生化科技股份有限公司-广州公司年产5650吨杀虫剂及杀菌剂技改项目（广东英德市）</span>
+                            <span class="clumn3">施工准备</span>
+                            <span class="clumn4">今天</span>
+                        </a>
+                    </li>
+                </ul>
+                <p class="list_more"><a href="#">查看更多</a></p>
+            </div>
+
+
+        </div>
+        <div class="content_main">
+            <div class="left_main">
+                <p class="main_tit">最新项目信息</p>
+                <ul class="pro_list">
+                    <li><a href="#">污水处理<span>(1234)</span></a></li>
+                    <li><a href="#">污水处理<span>(1234)</span></a></li>
+                    <li><a href="#">污水处理<span>(1234)</span></a></li>
+                    <li><a href="#">污水处理<span>(1234)</span></a></li>
+                    <li><a href="#">污水处理<span>(1234)</span></a></li>
+                    <li><a href="#">污水处理<span>(1234)</span></a></li>
+                    <li><a href="#">污水处理<span>(1234)</span></a></li>
+                    <li><a href="#">污水处理<span>(1234)</span></a></li>
+                    <li><a href="#">污水处理<span>(1234)</span></a></li>
+                    <li><a href="#">污水处理<span>(1234)</span></a></li>
+                    <li><a href="#">污水处理<span>(1234)</span></a></li>
+                    <li><a href="#">污水处理<span>(1234)</span></a></li>
+                    <li><a href="#">污水处理<span>(1234)</span></a></li>
+                    <li><a href="#">污水处理<span>(1234)</span></a></li>
+                    <li><a href="#">污水处理<span>(1234)</span></a></li>
+                </ul>
+            </div>
+            <div class="right_main">
+                <p class="main_tit">一周内新增项目<span>2023</span>条</p>
+                <ul>
+                    <li class="tit">
+                        <span class="clumn1">地区</span>
+                        <span class="clumn2">工程项目名称</span>
+                        <span class="clumn3">工程阶段</span>
+                        <span class="clumn4">更新时间</span>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="clumn1">广东省</span>
+                            <span class="clumn2">• 广东广康生化科技股份有限公司-广州公司年产5650吨杀虫剂及杀菌剂技改项目（广东英德市）</span>
+                            <span class="clumn3">施工准备</span>
+                            <span class="clumn4">今天</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="clumn1">广东省</span>
+                            <span class="clumn2">• 广东广康生化科技股份有限公司-广州公司年产5650吨杀虫剂及杀菌剂技改项目（广东英德市）</span>
+                            <span class="clumn3">施工准备</span>
+                            <span class="clumn4">今天</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="clumn1">广东省</span>
+                            <span class="clumn2">• 广东广康生化科技股份有限公司-广州公司年产5650吨杀虫剂及杀菌剂技改项目（广东英德市）</span>
+                            <span class="clumn3">施工准备</span>
+                            <span class="clumn4">今天</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="clumn1">广东省</span>
+                            <span class="clumn2">• 广东广康生化科技股份有限公司-广州公司年产5650吨杀虫剂及杀菌剂技改项目（广东英德市）</span>
+                            <span class="clumn3">施工准备</span>
+                            <span class="clumn4">今天</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="clumn1">广东省</span>
+                            <span class="clumn2">• 广东广康生化科技股份有限公司-广州公司年产5650吨杀虫剂及杀菌剂技改项目（广东英德市）</span>
+                            <span class="clumn3">施工准备</span>
+                            <span class="clumn4">今天</span>
+                        </a>
+                    </li>
+                </ul>
+                <p class="list_more"><a href="#">查看更多</a></p>
+            </div>
+
+
+        </div>
+        <div class="information_main">
+            <h1>天工网致力于建筑工程行业项目信息服务</h1>
+            <ul>
+                <li class="card_item active">
+                    <div class="content_first">
+                        <img src="images/xinxitishi.png" alt="天工网">
+                        <p class="tit">信息渠道资源</p>
+                        <p class="desc"><span>海量</span>日更新400+</p>
+                        <p class="desc"><span>精准</span>联系人准确</p>
+                        <p class="desc"><span>优质</span>大量采购负责人</p>
+                    </div>
+                    <div class="content_second">
+                        <p class="tit">信息渠道资源</p>
+                        <p class="desc">天工网拥有非常广的信息渠道资源，可让您提前快速了解到有价值的工程项目情况和关键联系人信息， 获得商机，为您节省大量的信息收集和攻关的时间和人力</p>
+                        <a href="#" target="_blank" class="content_link">用好工 程信息，提升业绩，只需五步&gt;&gt;</a>
+                        <a href="#" target="_blank" class="content_link">本地最新优质工程项目&gt;&gt;</a>
+                    </div>
+                </li>
+                <li class="card_item">
+                    <div class="content_first">
+                        <img src="images/xinxitishi.png" alt="天工网">
+                        <p class="tit">信息渠道资源</p>
+                        <p class="desc"><span>海量</span>日更新400+</p>
+                        <p class="desc"><span>精准</span>联系人准确</p>
+                        <p class="desc"><span>优质</span>大量采购负责人</p>
+                    </div>
+                    <div class="content_second">
+                        <p class="tit">信息渠道资源</p>
+                        <p class="desc">天工网拥有非常广的信息渠道资源，可让您提前快速了解到有价值的工程项目情况和关键联系人信息， 获得商机，为您节省大量的信息收集和攻关的时间和人力</p>
+                        <a href="#" target="_blank" class="content_link">用好工程信息，提升业绩，只需五步&gt;&gt;</a>
+                        <a href="#" target="_blank" class="content_link">本地最新优质工程项目&gt;&gt;</a>
+                    </div>
+                </li>
+                <li class="card_item">
+                    <div class="content_first">
+                        <img src="images/xinxitishi.png" alt="天工网">
+                        <p class="tit">信息渠道资源</p>
+                        <p class="desc"><span>海量</span>日更新400+</p>
+                        <p class="desc"><span>精准</span>联系人准确</p>
+                        <p class="desc"><span>优质</span>大量采购负责人</p>
+                    </div>
+                    <div class="content_second">
+                        <p class="tit">信息渠道资源</p>
+                        <p class="desc">天工网拥有非常广的信息渠道资源，可让您提前快速了解到有价值的工程项目情况和关键联系人信息， 获得商机，为您节省大量的信息收集和攻关的时间和人力</p>
+                        <a href="#" target="_blank" class="content_link">用好工程信息，提升业绩，只需五步&gt;&gt;</a>
+                        <a href="#" target="_blank" class="content_link">本地最新优质工程项目&gt;&gt;</a>
+                    </div>
+                </li>
+                <li class="card_item">
+                    <div class="content_first">
+                        <img src="images/xinxitishi.png" alt="天工网">
+                        <p class="tit">信息渠道资源</p>
+                        <p class="desc"><span>海量</span>日更新400+</p>
+                        <p class="desc"><span>精准</span>联系人准确</p>
+                        <p class="desc"><span>优质</span>大量采购负责人</p>
+                    </div>
+                    <div class="content_second">
+                        <p class="tit">信息渠道资源</p>
+                        <p class="desc">天工网拥有非常广的信息渠道资源，可让您提前快速了解到有价值的工程项目情况和关键联系人信息， 获得商机，为您节省大量的信息收集和攻关的时间和人力</p>
+                        <a href="#" target="_blank" class="content_link">用好工程信息，提升业绩，只需五步&gt;&gt;</a>
+                        <a href="#" target="_blank" class="content_link">本地最新优质工程项目&gt;&gt;</a>
+                    </div>
+                </li>
+
+            </ul>
+
+        </div>
+        <div class="footer">
+            <div class="footContent">
+                <p>广东掌中万维电子有限公司 版权所有</p>
+                <p>粤公网安备 44010402000727号 经营许可证:粤B2-20090138</p>
+            </div>
+
+        </div>
+    </div>
+<div class="login_pop">
+    <div class="pop_main" >
+        <div class="pop_top"><a></a></div>
+        <div class="pop_content">
+            <p class="pop_title">账号登录</p>
+            <p class="login_list "><input type="hidden" name="openId" value=""><input class="submit_main"
+                    type="text" name="userIdentify" placeholder="手机号/邮箱/会员名" autocomplete="off"></p>
+            <p class="login_list"><input class="submit_main" type="password" name="login-password"
+                    placeholder="请输入密码" autocomplete="off"></p>
+            <p class="agreen_btn"><i class="isChecked"></i>下次自动登录<a class="forget_pwd" href="#" target="_blank">忘记密码？</a></p><button
+                type="submit" class="sub_btn">登录</button>
+        </div>
+    </div>
+
+</div>
+    <script src="js/jquery-1.10.1.min.js"></script>
+    <script src="js/idangerous.swiper.min.js"></script>
+    <script src="js/numberchange.js"></script>
+    <script src="js/index.js"></script>
+
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+            paginationClickable: true,
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: 2500,
+            autoplayDisableOnInteraction: false,
+            pagination: '.pagination',
+            loop: true
+
+
+        })
+
+        //第一个参数是id名称，第二个是开始数值，第三个是结束数值，第四个是控制小数点后几位，第五个是控制变化事件
+        new CountUp("proNum", 0, 466407, 0, 3).start();
+        new CountUp("biddingNum", 100, 4873040, 0, 3).start();
+        new CountUp("memberNum", 10, 5727155, 0, 3).start();
+        new CountUp("cooperateNum", 10, 13757, 0, 3).start();
+    </script>
+</body>
+
+</html>
